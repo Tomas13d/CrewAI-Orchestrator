@@ -1,0 +1,25 @@
+{
+  "name": "crewai-orchestrator",
+  "version": "1.0.0",
+  "description": "🧠 Documentación de Entidades – Orquestador CrewAI\r Esta documentación describe las clases principales del sistema de orquestación de agentes de IA basado en la librería CrewAI, adaptado para transformar JSONs derivados de Oracle Forms en aplicaciones Express/NestJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "openai": "^5.12.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

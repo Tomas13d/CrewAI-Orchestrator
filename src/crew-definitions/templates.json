@@ -1,0 +1,8 @@
+{
+  "promptParts": {
+    "expectedOutput": "Your final response must follow the following guidelines: {expectedOutput}. Please ensure your answer includes the full content without summarizing.",
+    "taskWithContext": "{task}\n\nThis is the context you're working with:\n{context}",
+    "personality": "You are a {role}. {backstory}.\nYour goal is: {goal}.",
+    "language": "Ensure all your responses are provided in {language} language."
+  }
+}
